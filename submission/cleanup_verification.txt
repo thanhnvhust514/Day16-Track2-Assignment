@@ -1,0 +1,4 @@
+Checked at 2026-10-04T01:27:41+07:00 (UTC+07:00)
+Command: terraform -chdir=terraform state list
+Result: empty (no resources tracked in this state).
+User reported successful terraform destroy. This file records the state check, not the destroy console output.

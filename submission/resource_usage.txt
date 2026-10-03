@@ -1,0 +1,132 @@
+Sat Oct  3 18:10:07 UTC 2026
+ 18:10:07 up 21 min,  1 user,  load average: 0.00, 0.01, 0.03
+top - 18:10:07 up 21 min,  1 user,  load average: 0.00, 0.01, 0.03
+Tasks: 107 total,   1 running, 106 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  3.1 sy,  0.0 ni, 96.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   3836.7 total,   1794.8 free,    242.6 used,   1799.3 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   3318.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  167524  12980   8436 S   0.0   0.3   0:01.60 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root      20   0       0      0      0 I   0.0   0.0   0:00.14 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     11 root      20   0       0      0      0 I   0.0   0.0   0:00.25 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 S   0.0   0.0   0:00.02 ksoftir+
+     16 root      20   0       0      0      0 I   0.0   0.0   0:00.24 rcu_sch+
+     17 root      rt   0       0      0      0 S   0.0   0.0   0:00.00 migrati+
+     18 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0
+     20 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1
+     21 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_in+
+     22 root      rt   0       0      0      0 S   0.0   0.0   0:00.06 migrati+
+     23 root      20   0       0      0      0 S   0.0   0.0   0:00.06 ksoftir+
+     25 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     26 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmp+
+     27 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd
+     29 root      20   0       0      0      0 I   0.0   0.0   0:00.06 kworker+
+     30 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungta+
+     32 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_rea+
+     33 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     34 root      20   0       0      0      0 I   0.0   0.0   0:00.47 kworker+
+     35 root      20   0       0      0      0 S   0.0   0.0   0:00.04 kcompac+
+     36 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd
+     37 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepa+
+     38 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     39 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     40 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     41 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/9-a+
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     43 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     44 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     45 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     46 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     47 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     48 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdo+
+     49 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     50 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+     51 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0
+     52 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptf+
+     53 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     54 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     55 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     56 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     57 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     58 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     59 root      20   0       0      0      0 I   0.0   0.0   0:00.23 kworker+
+     60 root      20   0       0      0      0 I   0.0   0.0   0:00.03 kworker+
+     61 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     62 root       0 -20       0      0      0 I   0.0   0.0   0:00.01 kworker+
+     63 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     70 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     72 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     85 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     86 root      20   0       0      0      0 S   0.0   0.0   0:00.16 jbd2/nv+
+     87 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     88 root      20   0       0      0      0 I   0.0   0.0   0:00.12 kworker+
+    127 root      19  -1   48156  14664  13516 S   0.0   0.4   0:00.28 systemd+
+    161 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    163 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    164 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    165 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    166 root      rt   0  289320  27632   9080 S   0.0   0.7   0:00.12 multipa+
+    170 root      20   0   23012   6640   4828 S   0.0   0.2   0:00.20 systemd+
+    197 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    199 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+    356 systemd+  20   0   16276   8592   7536 S   0.0   0.2   0:00.06 systemd+
+    359 systemd+  20   0   25688  13648   9204 S   0.0   0.3   0:00.16 systemd+
+    455 root      20   0    2816   2136   1988 S   0.0   0.1   0:00.00 acpid
+    459 root      20   0    7288   2932   2672 S   0.0   0.1   0:00.00 cron
+    460 message+  20   0    8604   4944   4220 S   0.0   0.1   0:00.13 dbus-da+
+    467 root      20   0   82712   4164   3808 S   0.0   0.1   0:00.04 irqbala+
+    469 root      20   0   33092  19688  10672 S   0.0   0.5   0:00.11 network+
+    471 syslog    20   0  222412   6204   4688 S   0.0   0.2   0:00.07 rsyslogd
+    474 root      20   0 1474960  39392  25512 S   0.0   1.0   0:00.75 snapd
+    476 root      20   0   15520   7896   6872 S   0.0   0.2   0:00.14 systemd+
+    493 _chrony   20   0   18912   3784   3068 S   0.0   0.1   0:00.05 chronyd
+    503 _chrony   20   0   10584   2240   1668 S   0.0   0.1   0:00.00 chronyd
+    548 root      20   0    6220   2400   2252 S   0.0   0.1   0:00.00 agetty
+    565 root      20   0    6176   2340   2208 S   0.0   0.1   0:00.00 agetty
+    580 root      20   0  110172  21900  13644 S   0.0   0.6   0:00.10 unatten+
+    631 root      20   0  235480   8656   7284 S   0.0   0.2   0:00.03 polkitd
+   1153 root      20   0 1759076  20996  12092 S   0.0   0.5   0:00.82 amazon-+
+   1184 root      20   0   15444   9384   7752 S   0.0   0.2   0:00.00 sshd
+   1270 root      20   0   17060  11092   8912 S   0.0   0.3   0:00.02 sshd
+   1273 ubuntu    20   0   16972   9828   8208 S   0.0   0.3   0:00.05 systemd
+   1274 ubuntu    20   0  170304   6516   1704 S   0.0   0.2   0:00.00 (sd-pam)
+   1350 ubuntu    20   0   17200   8020   5576 S   0.0   0.2   0:00.06 sshd
+   1358 ubuntu    20   0    9232   5388   3572 S   0.0   0.1   0:00.06 bash
+   1365 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   1699 root      20   0  296040  20588  17532 S   0.0   0.5   0:00.04 package+
+   2585 root      20   0       0      0      0 I   0.0   0.0   0:00.03 kworker+
+   2665 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   2666 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+   2811 root      20   0   17060  10944   8776 S   0.0   0.3   0:00.00 sshd
+   2857 ubuntu    20   0   17200   8188   5744 S   0.0   0.2   0:00.00 sshd
+   2858 ubuntu    20   0    7764   3500   3240 S   0.0   0.1   0:00.00 bash
+   2861 ubuntu    20   0   10776   3940   3300 R   0.0   0.1   0:00.00 top
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       242Mi       1.8Gi       2.0Mi       1.8Gi       3.2Gi
+Swap:             0B          0B          0B
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX:  bytes packets errors dropped  missed   mcast           
+         33026     286      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+         33026     286      0       0       0       0 
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 02:ff:c7:fb:4e:67 brd ff:ff:ff:ff:ff:ff
+    RX:  bytes packets errors dropped  missed   mcast           
+     283455648  194797      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+       1105570   11234      0       0       0       0 
+    altname enp0s5
